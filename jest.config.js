@@ -1,6 +1,7 @@
 module.exports = {
   moduleNameMapper: {
-    '^@/(.*)$': '<rootDir>/$1',
+    '^@ui/(.*)$': '<rootDir>/src/ui/$1',
+    '^@app/(.*)$': '<rootDir>/src/app/$1',
     '^~/(.*)$': '<rootDir>/$1',
     '^vue$': 'vue/dist/vue.common.js'
   },
