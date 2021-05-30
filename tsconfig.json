@@ -32,6 +32,7 @@
     "types": [
       "@nuxt/types",
       "@nuxtjs/axios",
+      "@types/jest",
       "@types/node"
     ]
   },
